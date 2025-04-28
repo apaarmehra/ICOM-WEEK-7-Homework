@@ -89,6 +89,16 @@
         transition: background-color 0.3s ease;  /* smooth hover effect */
       }
 
+
+      .grid-container {
+
+        display: grid;
+        grid-template-columns:  1fr ;
+        grid-gap: 0px; 
+        justify-content: space-evenly;
+    
+       }
+
    }
 
 
